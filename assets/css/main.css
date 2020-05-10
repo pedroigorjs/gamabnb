@@ -1,0 +1,102 @@
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+body,
+button,
+input {
+  font: 1rem "Jost", sans-serif;
+  color: #323031;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  padding: 1.5rem;
+}
+
+.logo {
+  width: 200px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.container section {
+  width: 75%;
+}
+
+.rooms {
+  padding: 1.5rem;
+}
+
+.rooms-list {
+  list-style: none;
+}
+
+.room {
+  padding: 1.5rem 0;
+  display: flex;
+  border-bottom: 1px solid #eee;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  margin-left: 1rem;
+  position: relative;
+  width: 100%;
+}
+
+.room div {
+  max-height: 200px;
+}
+
+.room img {
+  width: 300px;
+  height: 200px;
+  border-radius: 4px;
+}
+
+.room-title {
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+.room-price {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  font-size: 1.2rem;
+}
+
+.alert {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem 0;
+}
+
+.alert img {
+  width: 50px;
+  height: 50px;
+  margin-right: 1rem;
+}
+
+.alert p {
+  font-family: 0.5rem;
+}
+
+/* .room-grade {
+  position: absolute;
+  top: 0;
+  right: 0;
+} */
